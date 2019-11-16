@@ -66,6 +66,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a post-doctoral fellow at KTH Royal Institute of Technology since January 2019. My host is Danupon Nanongkai. In my previous avatar, I was a post-doctoral fellow at IUUK, Charles University, hosted by Michal Koucký until December 2018, in the APC group at KTH Royal Institute of Technology until August 2018, and a graduate student in theoretical computer science at TIFR Mumbai until August 2017, working under the guidance of Dr. Arkadev Chattopadhyay.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I was a recipient of TCS PhD Fellowship and my PhD research work was supported by this fellowship.
