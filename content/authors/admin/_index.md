@@ -21,7 +21,7 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Complexity Theory: Communication and Query Complexity
+- Complexity Theory, Communication and Query Complexity
 - Distributed Graph Algorithms
 
 education:
