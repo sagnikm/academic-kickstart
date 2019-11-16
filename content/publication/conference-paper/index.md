@@ -5,6 +5,7 @@ authors:
 - Bruno Loff
 # date: "2013-07-01T00:00:00Z"
 doi: "10.4230/LIPIcs.STACS.2019.50"
+markup: mmark
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
