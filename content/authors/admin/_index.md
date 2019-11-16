@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Sagnik Mukhopadhyay
+markup: mmark
 
 # Username (this should match the folder name)
 authors:
@@ -18,7 +19,7 @@ organizations:
   url: "https://www.kth.se/tcs"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include complexity theory and distributed graph algorithms.
 
 interests:
 - Complexity Theory, Communication and Query Complexity
