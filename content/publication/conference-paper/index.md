@@ -1,13 +1,13 @@
 ---
-title: "An example conference paper"
+title: "Lifting Theorems for Equality"
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
-doi: ""
+- Bruno Loff
+# date: "2013-07-01T00:00:00Z"
+doi: "10.4230/LIPIcs.STACS.2019.50"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+# publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,60 +16,65 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: In *STACS 2019*
+publication_short: In *STACS 2019*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We show a *deterministic simulation (or lifting) theorem* for composed problems $$f \circ \mathsf{Eq}_n$$ where the inner function (the gadget) is Equality on $$n$$ bits. When $$f$$ is a total function on $$p$$ bits, it is easy to show via a rank argument that the communication complexity of $$f\circ \mathsf{Eq}_n$$ is $$\Omega(\deg(f) \cdot n)$$. However, there is a surprising counter-example of a partial function $$f$$ on $$p$$ bits, such that any completion $$f'$$ of $$f$$ has $$\deg(f') = \Omega(p)$$, and yet $$f \circ \mathsf{Eq}_n$$ has communication complexity $$O(n)$$. Nonetheless, we are able to show that the communication complexity of $$f \circ \mathsf{Eq}_n$$ is at least $$D(f) \cdot n$$ for a complexity measure $$D(f)$$ which is closely related to the AND-query complexity of $$f$$ and is lower-bounded by the logarithm of the leaf complexity of $$f$$. As a corollary, we also obtain lifting theorems for the set-disjointness gadget, and a lifting theorem in the context of parity decision-trees, for the NOR gadget.
+
+
+As an application, we prove a tight lower-bound for the deterministic communication complexity of the communication problem, where Alice and Bob are each given $$p$$-many $$n$$-bit strings, with the promise that either all of the strings are distinct, or all-but-one of the strings are distinct, and they wish to know which is the case. We show that the complexity of this problem is $$\Theta(p \cdot n)$$.
+
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin #tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Communication complexity
+- Simulation theorem
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+- name: ECCC
+  url: https://eccc.weizmann.ac.il/report/2018/175/
+url_pdf: http://drops.dagstuhl.de/opus/volltexte/2019/10289/pdf/LIPIcs-STACS-2019-50.pdf
+#url_code: '#'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
+#- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
+#{{% alert note %}}
+#Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference #management software.
+#{{% /alert %}}
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+#{{% alert note %}}
+#Click the *Slides* button above to demo Academic's Markdown slides feature.
+#{{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+#Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-#latex/).
 
