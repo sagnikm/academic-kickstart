@@ -26,12 +26,15 @@ interests:
 
 education:
   courses:
-  - course: PhD in Theoretical Computer Science
+  - course: Ph.D. in Theoretical Computer Science
     institution: Tata Institute of Fundamental Research
     year: 2017
-  - course: MS in Computer Science
+  - course: M.S. in Computer Science
     institution: Tata Institute of Fundamental Research
-    year: 2009
+    year: 2013
+  - course: B.Tech. in Computer Science & Engineering
+    institution: Institute of Engineering & Management
+    year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -47,14 +50,11 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.se/citations?user=9JQnLLoAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

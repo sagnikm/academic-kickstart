@@ -13,3 +13,5 @@ header:
   caption: ""
   image: ""
 ---
+
+Weighted min-cut
