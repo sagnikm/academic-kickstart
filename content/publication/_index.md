@@ -14,4 +14,3 @@ header:
   image: ""
 ---
 
-Weighted min-cut
