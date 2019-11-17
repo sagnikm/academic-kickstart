@@ -67,6 +67,6 @@ user_groups:
 - Visitors
 ---
 
-I am a post-doctoral fellow at KTH Royal Institute of Technology since January 2019. My host is Danupon Nanongkai. In my previous avatar, I was a post-doctoral fellow at IUUK, Charles University, hosted by Michal Koucký until December 2018, in the APC group at KTH Royal Institute of Technology until August 2018, and a graduate student in theoretical computer science at TIFR Mumbai until August 2017, working under the guidance of Dr. Arkadev Chattopadhyay.
+I am a post-doctoral fellow at [KTH Royal Institute of Technology](https://www.kth.se/en/csc) since January 2019. My host is [Danupon Nanongkai](https://sites.google.com/site/dannanongkai/). In my previous avatar, I was a post-doctoral fellow at [IUUK, Charles University](https://iuuk.mff.cuni.cz/), hosted by [Michal Koucký](https://iuuk.mff.cuni.cz/~koucky/) until December 2018, in the [APC group](https://apc.csc.kth.se/) at KTH Royal Institute of Technology until August 2018, and a graduate student in theoretical computer science at [TIFR Mumbai](http://www.tcs.tifr.res.in/) until August 2017, working under the guidance of [Dr. Arkadev Chattopadhyay](http://www.tcs.tifr.res.in/~arkadev/).
 
-I was a recipient of TCS PhD Fellowship and my PhD research work was supported by this fellowship.
+I was a recipient of TCS Ph.D. Fellowship and my Ph.D. research work was supported by this fellowship.
