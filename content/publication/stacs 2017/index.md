@@ -22,15 +22,7 @@ publication_types: ["1"]
 publication: In *STACS 2017*
 publication_short: In *STACS 2017*
 
-abstract: We consider the problem of elimination in communication complexity, that was first raised by
-Ambainis et al. and later studied by Beimel et al. for its connection to the famous direct
-sum question. In this problem, let $f ; \{0, 1\}^{2n} \to \{0, 1\}$ be any boolean function. Alice and Bob
-get $k$ inputs $x_1, \cdots , x_k$ and $y_1, \cdots, y_k$ respectively, with $x_i, y_i \in \{0, 1\}^n$. They want to output a
-$k$-bit vector $v$, such that there exists one index $i$ for which $v_i \neq f(x_i, y_i)$. We prove a general
-result lower bounding the randomized communication complexity of the elimination problem for
-$f$ using its discrepancy. Consequently, we obtain strong lower bounds for the functions *InnerProduct* and *Greater-Than*, that work for exponentially larger values of $k$ than the best previous bounds. To prove our result, we use a pseudo-random notion called regularity that was first used by Raz and Wigderson. We show that functions with small discrepancy are regular. We also observe that a weaker notion, that we call weak-regularity, already implies hardness of elimination.
-Finally, we give a different proof, borrowing ideas from Viola, to show that Greater-Than is
-weakly regular.
+abstract: We consider the problem of elimination in communication complexity, that was first raised by Ambainis et al. and later studied by Beimel et al. for its connection to the famous direct sum question. In this problem, let $f ; \{0, 1\}^{2n} \to \{0, 1\}$ be any boolean function. Alice and Bob get $k$ inputs $x_1, \cdots , x_k$ and $y_1, \cdots, y_k$ respectively, with $x_i, y_i \in \{0, 1\}^n$. They want to output a $k$-bit vector $v$, such that there exists one index $i$ for which $v_i \neq f(x_i, y_i)$. We prove a general result lower bounding the randomized communication complexity of the elimination problem for $f$ using its discrepancy. Consequently, we obtain strong lower bounds for the functions *InnerProduct* and  Greater-Than*, that work for exponentially larger values of $k$ than the best previous bounds. To prove our result, we use a pseudo-random notion called regularity that was first used by Raz and Wigderson. We show that functions with small discrepancy are regular. We also observe that a weaker notion, that we call weak-regularity, already implies hardness of elimination. Finally, we give a different proof, borrowing ideas from Viola, to show that Greater-Than is weakly regular.
 
 
 # Summary. An optional shortened abstract.
