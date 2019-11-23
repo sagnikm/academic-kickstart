@@ -20,6 +20,8 @@ publication_types: ["2"]
 publication: "*SIAM Journal on Computing*(47:4)"
 publication_short: ""
 
+abstract:
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,21 +47,21 @@ url_video: ''
 image:
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
 #  focal_point: ""
-#  preview_only: false
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-# projects: []
+ projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+ slides: example
 ---
 
 Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) = \Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$, where $R_0$ denotes the randomized zero-error query complexity and $D$ denotes the deterministic query complexity. We show that for the pointer function $GPW_{r \times s}$ defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
