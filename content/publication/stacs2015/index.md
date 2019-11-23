@@ -1,5 +1,5 @@
 ---
-title: "Lower Bounds for Elimination via Weak Regularity"
+title: "Tribes is Hard in Message-passing Model"
 authors:
 - Arkadev Chattopadhyay
 - admin
@@ -18,8 +18,8 @@ markup: mmark
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *STACS 2017*
-publication_short: In *STACS 2017*
+publication: In *STACS 2015*
+publication_short: In *STACS 2015*
 
 # abstract: 
 
