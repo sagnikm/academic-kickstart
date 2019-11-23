@@ -3,7 +3,7 @@ title: "Weighted Min-Cut: Sequential, Cut-Query and Streaming Algorithms"
 authors:
 - admin
 - Danupon Nanongkai
-date: "2019-04-07T00:00:00Z"
+date: "2019-12-01T00:00:00Z"
 doi: ""
 markup: mmark
 
