@@ -5,7 +5,7 @@ authors:
 - Michal Koucky
 - Bruno Loff
 - admin
-# date: "2013-07-01T00:00:00Z"
+ date: "2017-07-01T00:00:00Z"
 doi: "10.4230/LIPIcs.STACS.2017.21"
 markup: mmark
 
