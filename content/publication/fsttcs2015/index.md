@@ -3,7 +3,8 @@ title: "Lower Bounds for Elimination via Weak Regularity"
 authors:
 - admin
 - Swagato Sanyal
- date: "2015-07-01T00:00:00Z"
+
+date: "2015-07-01T00:00:00Z"
 doi: "10.4230/LIPIcs.FSTTCS.2015.206"
 markup: mmark
 

@@ -3,7 +3,8 @@ title: "Lifting Theorems for Equality"
 authors:
 - admin
 - Bruno Loff
-# date: "2019-07-01T00:00:00Z"
+
+date: "2019-07-01T00:00:00Z"
 doi: "10.4230/LIPIcs.STACS.2019.50"
 markup: mmark
 
