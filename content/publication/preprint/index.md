@@ -1,7 +1,8 @@
 ---
-title: "An example preprint / working paper"
+title: "Weighted Min-Cut: Sequential, Cut-Query and Streaming Algorithms"
 authors:
 - admin
+- Danupon Nanongkai
 date: "2019-04-07T00:00:00Z"
 doi: ""
 
@@ -28,9 +29,9 @@ tags:
 featured: false
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+- name: arXiv
+  url: http://arxiv.org/abs/1911.01651
+url_pdf: https://arxiv.org/pdf/1911.01651.pdf
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
@@ -52,18 +53,22 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: 
 ---
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+Consider the following *2-respecting min-cut* problem. Given a weighted graph $G$ and its spanning tree $T$, find the minimum cut among the cuts that contain at most two edges in $T$. This problem is an important subroutine in Karger's celebrated randomized near-linear-time min-cut algorithm [STOC'96]. We present a new approach for this problem which can be easily implemented in many settings, leading to the following randomized min-cut algorithms for weighted graphs. 
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+	* An $O\left(m\frac{\log^2 n}{\log\log n} + n\log^6 n\right)$-time sequential algorithm: This improves Karger's long-standing $O(m \log^3 n)$ and $O\left(m\frac{(\log^2 n)\log (n^2/m)}{\log\log n} + n\log^6 n\right)$ bounds when the input graph is not extremely sparse or dense. Improvements over Karger's bounds were previously known only under a rather strong assumption that the input graph is {\em simple} (unweighted without parallel edges) [Henzinger, Rao, Wang, SODA'17; Ghaffari, Nowicki, Thorup, SODA'20]. For unweighted graphs  (possibly with parallel edges) and using bit operations, our bound can be further improved to $O\left(m\frac{\log^{1.5} n}{\log\log n} + n\log^6 n\right)$. 
+	\danupon{SAGNIK: Check}
+	
+	* An algorithm that requires $\tilde O(n)$ *cut queries* to compute the min-cut of a weighted graph: This answers an open problem by Rubinstein, Schramm, and Weinberg [ITCS'18], who obtained a similar bound for simple graphs. Our bound is tight up to polylogarithmic factors. 
+	
+	* A *streaming* algorithm that requires $\tilde O(n)$ space and $O(\log n)$ passes to compute the min-cut: The only previous non-trivial exact min-cut algorithm in this setting is the 2-pass $\tilde O(n)$-space algorithm on simple graphs [Rubinstein~et~al., ITCS'18] (observed by Assadi, Chen, and Khanna [STOC'19]). 
+
+In contrast to Karger's 2-respecting min-cut algorithm which deploys sophisticated dynamic programming techniques, our approach exploits some cute structural properties so that it only needs to compute the values of $\tilde O(n)$ cuts corresponding to removing $\tilde O(n)$ pairs of tree edges, an operation that can be done quickly in many settings.  
