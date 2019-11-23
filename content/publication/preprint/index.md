@@ -5,6 +5,7 @@ authors:
 - Danupon Nanongkai
 date: "2019-04-07T00:00:00Z"
 doi: ""
+markup: mmark
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -19,7 +20,7 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -64,11 +65,10 @@ slides:
 
 Consider the following *2-respecting min-cut* problem. Given a weighted graph $G$ and its spanning tree $T$, find the minimum cut among the cuts that contain at most two edges in $T$. This problem is an important subroutine in Karger's celebrated randomized near-linear-time min-cut algorithm [STOC'96]. We present a new approach for this problem which can be easily implemented in many settings, leading to the following randomized min-cut algorithms for weighted graphs. 
 
-	* An $O\left(m\frac{\log^2 n}{\log\log n} + n\log^6 n\right)$-time sequential algorithm: This improves Karger's long-standing $O(m \log^3 n)$ and $O\left(m\frac{(\log^2 n)\log (n^2/m)}{\log\log n} + n\log^6 n\right)$ bounds when the input graph is not extremely sparse or dense. Improvements over Karger's bounds were previously known only under a rather strong assumption that the input graph is {\em simple} (unweighted without parallel edges) [Henzinger, Rao, Wang, SODA'17; Ghaffari, Nowicki, Thorup, SODA'20]. For unweighted graphs  (possibly with parallel edges) and using bit operations, our bound can be further improved to $O\left(m\frac{\log^{1.5} n}{\log\log n} + n\log^6 n\right)$. 
-	\danupon{SAGNIK: Check}
+* An $O\left(m\frac{\log^2 n}{\log\log n} + n\log^6 n\right)$-time sequential algorithm: This improves Karger's long-standing $O(m \log^3 n)$ and $O\left(m\frac{(\log^2 n)\log (n^2/m)}{\log\log n} + n\log^6 n\right)$ bounds when the input graph is not extremely sparse or dense. Improvements over Karger's bounds were previously known only under a rather strong assumption that the input graph is {\em simple} (unweighted without parallel edges) [Henzinger, Rao, Wang, SODA'17; Ghaffari, Nowicki, Thorup, SODA'20]. For unweighted graphs  (possibly with parallel edges) and using bit operations, our bound can be further improved to $O\left(m\frac{\log^{1.5} n}{\log\log n} + n\log^6 n\right)$. 
 	
-	* An algorithm that requires $\tilde O(n)$ *cut queries* to compute the min-cut of a weighted graph: This answers an open problem by Rubinstein, Schramm, and Weinberg [ITCS'18], who obtained a similar bound for simple graphs. Our bound is tight up to polylogarithmic factors. 
+* An algorithm that requires $\tilde O(n)$ *cut queries* to compute the min-cut of a weighted graph: This answers an open problem by Rubinstein, Schramm, and Weinberg [ITCS'18], who obtained a similar bound for simple graphs. Our bound is tight up to polylogarithmic factors. 
 	
-	* A *streaming* algorithm that requires $\tilde O(n)$ space and $O(\log n)$ passes to compute the min-cut: The only previous non-trivial exact min-cut algorithm in this setting is the 2-pass $\tilde O(n)$-space algorithm on simple graphs [Rubinstein~et~al., ITCS'18] (observed by Assadi, Chen, and Khanna [STOC'19]). 
+* A *streaming* algorithm that requires $\tilde O(n)$ space and $O(\log n)$ passes to compute the min-cut: The only previous non-trivial exact min-cut algorithm in this setting is the 2-pass $\tilde O(n)$-space algorithm on simple graphs [Rubenstein et al. ITCS 2018] observed by Assadi, Chen, and Khanna [STOC'19]). 
 
 In contrast to Karger's 2-respecting min-cut algorithm which deploys sophisticated dynamic programming techniques, our approach exploits some cute structural properties so that it only needs to compute the values of $\tilde O(n)$ cuts corresponding to removing $\tilde O(n)$ pairs of tree edges, an operation that can be done quickly in many settings.  
