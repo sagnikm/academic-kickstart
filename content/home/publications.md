@@ -28,7 +28,7 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = ""
+    publication_type = "preprint"
     exclude_featured = false
   
 [design]
