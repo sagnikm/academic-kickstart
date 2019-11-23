@@ -1,11 +1,12 @@
 ---
-title: "Separation between Deterministic and Randomized Query Complexity"
+title: "Simulation Theorems via Pseudo-random Properties"
 authors:
+- Arkadev Chattopadhyay
+- Michal Koucky
+- Bruno Loff
 - admin
-- Swagato Sanyal
-- Jaikumar Radhakrishnan
 date: "2015-09-01T00:00:00Z"
-doi: "10.1137/17M1124115"
+doi: "10.1007/s00037-019-00190-7"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -17,7 +18,7 @@ doi: "10.1137/17M1124115"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*SIAM Journal on Computing* (47:4)"
+publication: "*Computational Complexity* (28:4)"
 publication_short: ""
 
 abstract:
@@ -33,7 +34,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://epubs.siam.org/doi/10.1137/17M1124115
+url_pdf: https://link.springer.com/article/10.1007%2Fs00037-019-00190-7
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -64,10 +65,6 @@ projects: []
 slides: example
 ---
 
-Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) = \Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$, where $R_0$ denotes the randomized zero-error query complexity and $D$ denotes the deterministic query complexity. We show that for the pointer function $GPW_{r \times s}$ defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
+We generalize the deterministic simulation theorem of Raz-Mckenzie, to any gadget which satisfies a certain hitting property. We prove that Inner-product and gap-Hamming satisfy this property, and, as a corollary, we obtain deterministic simulation theorem for these gadgets, where the gadget's input-size is logarithmic in the input-size of the outer function. This yields the first deterministic simulation theorem with a logarithmic gadget size, answering an open question posed by Goos-Pitassi-Watson.
 
-* $R_1(GPW_{r \times s}) = \tilde \Theta(r + s)$ and 
-
-* $R_1(\widebar{GPW_{r \times s}}) = \tilde \Theta(r + \sqrt{r}s)$, 
-
-where $R_1$ denotes the randomized one-sided error query complexity. These results imply that (i) $R_0(GPW_{s^2 \times s}) = O(D(GPW_{s^2 \times s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii) $R_1(GPW_{s \times s}) = \tilde O(R_0(GPW_{s \times s})^{2/3})$, thereby providing a polynomial separation between the randomized zero-error and one sided error query complexity measures.
+Our result also implies the previous results for the Indexing gadget, with better parameters than was previously known. Moreover, a simulation theorem with logarithmic-sized gadget implies a quadratic separation in deterministic communication complexity and logarithm of the $1$-partition number, no matter how high the $1$-partition number is with respect to the input size---something which is not achievable by previous results of Goos-Pitassi-Watson. 
