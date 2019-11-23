@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 
-title = "Recent Publications"
+title = "Conference Publications"
 subtitle = ""
 
 [content]
@@ -28,7 +28,7 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = "preprint"
+    publication_type = ["1"]
     exclude_featured = false
   
 [design]
