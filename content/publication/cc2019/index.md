@@ -2,7 +2,7 @@
 title: "Simulation Theorems via Pseudo-random Properties"
 authors:
 - Arkadev Chattopadhyay
-- Michal Koucky
+- Michal Koucký
 - Bruno Loff
 - admin
 date: "2019-09-01T00:00:00Z"

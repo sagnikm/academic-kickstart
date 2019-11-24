@@ -11,6 +11,10 @@ weight = 89  # Order that this section will appear.
 title = "Preprints"
 subtitle = ""
 
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
+
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"

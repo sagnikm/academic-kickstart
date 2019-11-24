@@ -2,7 +2,7 @@
 title: "Lower Bounds for Elimination via Weak Regularity"
 authors:
 - Arkadev Chattopadhyay
-- Michal Koucky
+- Michal Koucký
 - Bruno Loff
 - admin
 

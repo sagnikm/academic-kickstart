@@ -2,7 +2,7 @@
 title: "Simulation Beats Richness: New Data-Structure Lower Bounds"
 authors:
 - Arkadev Chattopadhyay
-- Michal Koucky
+- Michal Koucký
 - Bruno Loff
 - admin
 
