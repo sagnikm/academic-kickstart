@@ -66,10 +66,9 @@ slides: ""
 ---
 
 Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) =
-\Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$, where $R_0$ denotes
-the randomized zero-error query complexity and $D$ denotes the deterministic
-query complexity. We show that for the pointer function $GPW_{r \times s}$
-defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
+\Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$. We show that for
+the pointer function $GPW_{r \times s}$ defined by Goos, Pitassi, and Watson
+[FOCS 2015], the following hold:
 
 * $R_1(GPW_{r \times s}) = \tilde \Theta(r + s)$ and 
 
