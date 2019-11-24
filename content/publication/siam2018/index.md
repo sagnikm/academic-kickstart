@@ -65,13 +65,13 @@ projects: []
 slides: ""
 ---
 
-Saks and Wigderson [FOCS 1986] conjectured that $R_0(f)=\Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$. We show that for the pointer function $GPW_{r \times s}$ defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
+Saks and Wigderson [FOCS 1986] conjectured that $R\\_0(f)=\Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$. We show that for the pointer function $GPW\\_{r \times s}$ defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
 
-* $R_1(GPW_{r \times s})=\tilde\Theta(r + s)$ and 
+* $R\\_1(GPW\\_{r \times s})=\tilde\Theta(r + s)$ and 
 
-* $R_1(\overline{GPW_{r \times s}})=\tilde \Theta(r + \sqrt{r}s)$, 
+* $R\\_1(\overline{GPW\\_{r \times s}})=\tilde \Theta(r + \sqrt{r}s)$, 
 
-where $R_1$ denotes the randomized one-sided error query complexity. These results imply that (i) $R_0(GPW_{s^2 \times s})=O(D(GPW_{s^2 \times s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii)
-$R_1(GPW_{s \times s})=\tilde O(R_0(GPW_{s \times s})^{2/3})$, thereby
+where $R_1$ denotes the randomized one-sided error query complexity. These results imply that (i) $R\\_0(GPW_{s^2 \times s})=O(D(GPW_{s^2 \times s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii)
+$R\\_1(GPW\\_{s \times s})=\tilde O(R\\_0(GPW\\_{s \times s})^{2/3})$, thereby
 providing a polynomial separation between the randomized zero-error and one
 sided error query complexity measures.
