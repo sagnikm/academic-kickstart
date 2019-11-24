@@ -1,5 +1,5 @@
 ---
-title: "Lower Bounds for Elimination via Weak Regularity"
+title: "Towards Better Separation between Deterministic and Randomized Query Complexity"
 authors:
 - admin
 - Swagato Sanyal
@@ -28,10 +28,9 @@ publication_short: In *FSTTCS 2015*
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin #tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Communication complexity
-- Elimination
-- Direct sum
-- Discrepancy
+- Query complexity
+- Randomization
+- Deterministic
 featured: true
 
 links:
