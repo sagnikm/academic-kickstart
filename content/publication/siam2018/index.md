@@ -4,8 +4,10 @@ authors:
 - admin
 - Swagato Sanyal
 - Jaikumar Radhakrishnan
+
 date: "2015-09-01T00:00:00Z"
 doi: "10.1137/17M1124115"
+markup: mmark
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -68,6 +70,6 @@ Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) = \Omega(D(f)^{0.753\ldo
 
 * $R_1(GPW_{r \times s}) = \tilde \Theta(r + s)$ and 
 
-* $R_1(\widebar{GPW_{r \times s}}) = \tilde \Theta(r + \sqrt{r}s)$, 
+* $R_1(\overline{GPW_{r \times s}}) = \tilde \Theta(r + \sqrt{r}s)$, 
 
 where $R_1$ denotes the randomized one-sided error query complexity. These results imply that (i) $R_0(GPW_{s^2 \times s}) = O(D(GPW_{s^2 \times s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii) $R_1(GPW_{s \times s}) = \tilde O(R_0(GPW_{s \times s})^{2/3})$, thereby providing a polynomial separation between the randomized zero-error and one sided error query complexity measures.
