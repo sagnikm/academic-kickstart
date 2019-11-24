@@ -4,7 +4,6 @@ authors:
 - admin
 - Swagato Sanyal
 - Jaikumar Radhakrishnan
-
 date: "2015-09-01T00:00:00Z"
 doi: "10.1137/17M1124115"
 markup: mmark
@@ -63,13 +62,22 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
-Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) = \Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$, where $R_0$ denotes the randomized zero-error query complexity and $D$ denotes the deterministic query complexity. We show that for the pointer function $GPW_{r \times s}$ defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
+Saks and Wigderson [FOCS 1986] conjectured that $R_0(f) =
+\Omega(D(f)^{0.753\ldots})$ for all Boolean functions $f$, where $R_0$ denotes
+the randomized zero-error query complexity and $D$ denotes the deterministic
+query complexity. We show that for the pointer function $GPW_{r \times s}$
+defined by Goos, Pitassi, and Watson [FOCS 2015], the following hold:
 
 * $R_1(GPW_{r \times s}) = \tilde \Theta(r + s)$ and 
 
 * $R_1(\overline{GPW_{r \times s}}) = \tilde \Theta(r + \sqrt{r}s)$, 
 
-where $R_1$ denotes the randomized one-sided error query complexity. These results imply that (i) $R_0(GPW_{s^2 \times s}) = O(D(GPW_{s^2 \times s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii) $R_1(GPW_{s \times s}) = \tilde O(R_0(GPW_{s \times s})^{2/3})$, thereby providing a polynomial separation between the randomized zero-error and one sided error query complexity measures.
+where $R_1$ denotes the randomized one-sided error query complexity. These
+results imply that (i) $R_0(GPW_{s^2 \times s}) = O(D(GPW_{s^2 \times
+s})^{2/3})$, thereby refuting the conjecture of Saks and Wigderson, and (ii)
+$R_1(GPW_{s \times s}) = \tilde O(R_0(GPW_{s \times s})^{2/3})$, thereby
+providing a polynomial separation between the randomized zero-error and one
+sided error query complexity measures.
