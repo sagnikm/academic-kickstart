@@ -4,7 +4,7 @@ authors:
 - Michal Dory
 - Yuval Efron
 - admin
--Danupon Nanongkai
+- Danupon Nanongkai
 date: "2020-04-20T00:00:00Z"
 doi: ""
 
@@ -36,13 +36,13 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2004.09129
 url_pdf: https://arxiv.org/pdf/2004.09129.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
+url_code: ''
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
