@@ -39,7 +39,7 @@ url_pdf: http://drops.dagstuhl.de/opus/volltexte/2019/10289/pdf/LIPIcs-STACS-201
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
-#url_slides: ''
+url_slides: https://drive.google.com/file/d/11M7wRTfn140z3_F78fksIGl0NQ8x06Vf/view
 #url_source: '#'
 #url_video: '#'
 

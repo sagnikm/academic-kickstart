@@ -41,7 +41,7 @@ url_pdf: https://arxiv.org/pdf/1506.06399.pdf
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
-#url_slides: ''
+url_slides: https://drive.google.com/file/d/1YrtQZgs7F9dlXvU8piXhxkSwk02o5TNg/view
 #url_source: '#'
 #url_video: '#'
 

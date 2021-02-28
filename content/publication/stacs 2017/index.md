@@ -46,7 +46,7 @@ url_pdf: http://drops.dagstuhl.de/opus/volltexte/2017/7012/pdf/LIPIcs-STACS-2017
 #url_project: ''
 #url_slides: ''
 #url_source: '#'
-#url_video: '#'
+url_video: https://youtu.be/In48e7VIlcY
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

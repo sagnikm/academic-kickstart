@@ -43,9 +43,9 @@ url_pdf: https://eccc.weizmann.ac.il/report/2017/170/
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
-#url_slides: ''
+url_slides: https://drive.google.com/file/d/1ASxW4ljarJhF-GgOunmreoyg4CCbT19_/view
 #url_source: '#'
-#url_video: '#'
+url_video: https://youtu.be/lv6uIjamlc8
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

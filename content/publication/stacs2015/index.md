@@ -42,7 +42,7 @@ url_pdf: https://arxiv.org/pdf/1602.06079.pdf
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
-#url_slides: ''
+url_slides: https://drive.google.com/file/d/1gCS_qQn31TXhIKfzLbbPLX60TirYcf94/view
 #url_source: '#'
 #url_video: '#'
 
