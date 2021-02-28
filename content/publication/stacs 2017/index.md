@@ -34,7 +34,7 @@ tags:
 - Elimination
 - Direct sum
 - Discrepancy
-featured: true
+featured: false
 
 links:
 - name: DOI

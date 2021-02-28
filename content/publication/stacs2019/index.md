@@ -29,7 +29,7 @@ publication_short: In *STACS 2019*
 tags:
 - Communication complexity
 - Simulation theorem
-featured: true
+featured: false
 
 links:
 - name: ECCC

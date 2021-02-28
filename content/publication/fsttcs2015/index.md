@@ -31,7 +31,7 @@ tags:
 - Query complexity
 - Randomization
 - Deterministic
-featured: true
+featured: false
 
 links:
 - name: arXiv
