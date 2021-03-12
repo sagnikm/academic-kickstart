@@ -76,4 +76,4 @@ I was a recipient of TCS Ph.D. Fellowship and my Ph.D. research work was support
 ## News
 
 * Two papers in **STOC 2021**! See publications section.
-* In the job market right now.
+* I will join the the [Department of Computer Science](https://www.sheffield.ac.uk/dcs) at the [University of Sheffield](https://www.sheffield.ac.uk/) as a lecturer in January 2022.
