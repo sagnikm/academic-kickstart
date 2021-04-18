@@ -35,8 +35,8 @@ featured: true
 
 links:
 - name: arXiv
-  url: http://arxiv.org/abs/1911.01651
-url_pdf: https://arxiv.org/pdf/1911.01651.pdf
+  url: https://arxiv.org/abs/2004.09129
+url_pdf: https://arxiv.org/pdf/2004.09129.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

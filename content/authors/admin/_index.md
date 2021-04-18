@@ -25,7 +25,7 @@ bio: My research interests include complexity theory and distributed graph algor
 
 interests:
 - Complexity Theory, Communication and Query Complexity
-- Distributed Graph Algorithms
+- Graph Algorithms in different computational models
 
 education:
   courses:
@@ -75,5 +75,6 @@ I was a recipient of TCS Ph.D. Fellowship and my Ph.D. research work was support
 
 ## News
 
+* New paper on min-cut in **SPAA 2021**. See publications section.
 * Two papers in **STOC 2021**! See publications section.
 * I will join the the [Department of Computer Science](https://www.sheffield.ac.uk/dcs) at the [University of Sheffield](https://www.sheffield.ac.uk/) as a lecturer in January 2022.
