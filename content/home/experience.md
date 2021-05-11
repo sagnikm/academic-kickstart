@@ -28,7 +28,7 @@ date_format = "Jan 2006"
   location = "Stockholm"
   date_start = "2019-01-01"
   date_end = ""
-  description = """Research theme: Distributed graph algorithms."""
+  description = """Research theme: Graph algorithms, Models of computations, e.g., distributed, streaming, query, communication, etc."""
 
 [[experience]]
   title = "Post-doctoral researcher"
