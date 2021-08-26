@@ -69,7 +69,7 @@ user_groups:
 - Visitors
 ---
 
-I am a post-doctoral fellow at [KTH Royal Institute of Technology](https://www.kth.se/en/csc) since January 2019. My host is [Danupon Nanongkai](https://sites.google.com/site/dannanongkai/). In my previous avatar, I was a post-doctoral fellow at [IUUK, Charles University](https://iuuk.mff.cuni.cz/), hosted by [Michal Koucký](https://iuuk.mff.cuni.cz/~koucky/) until December 2018, in the [APC group](https://apc.csc.kth.se/) at KTH Royal Institute of Technology until August 2018, and a graduate student in theoretical computer science at [TIFR Mumbai](http://www.tcs.tifr.res.in/) until August 2017, working under the guidance of [Dr. Arkadev Chattopadhyay](http://www.tcs.tifr.res.in/~arkadev/).
+I am a post-doctoral researcher at the [Department of Computer Science](https://di.ku.dk/english/) in the [University of Copenhagen](https://www.ku.dk/english/) since September 2021. My host is [Danupon Nanongkai](https://sites.google.com/site/dannanongkai/). In my previous avatar, I was a researcher at [KTH Royal Institute of Technology](https://www.kth.se/en/csc) during 2019-2021, a post-doctoral fellow at [IUUK, Charles University](https://iuuk.mff.cuni.cz/), hosted by [Michal Koucký](https://iuuk.mff.cuni.cz/~koucky/) in 2018, in the [APC group](https://apc.csc.kth.se/) at KTH Royal Institute of Technology during 2017-2018, and a graduate student in theoretical computer science at [TIFR Mumbai](http://www.tcs.tifr.res.in/) until August 2017, working under the guidance of [Dr. Arkadev Chattopadhyay](http://www.tcs.tifr.res.in/~arkadev/).
 
 I was a recipient of TCS Ph.D. Fellowship and my Ph.D. research work was supported by this fellowship.
 
